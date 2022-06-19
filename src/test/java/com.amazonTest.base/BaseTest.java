@@ -17,6 +17,7 @@ public class BaseTest  {
         driver = new ChromeDriver();
         driver.get("https://www.amazon.com/");
         driver.manage().window().maximize();
+        driver.manage().deleteAllCookies();
 
     }
 
